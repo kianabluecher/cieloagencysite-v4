@@ -19,7 +19,7 @@ declare global {
 }
 
 // Storage key to ensure single instance
-const STORAGE_KEY = 'sb-bagdhpqzwxelbgbvubfr-auth-token';
+const STORAGE_KEY = 'sb-ykinptyiytyenumlowaa-auth-token';
 
 // Track if we've initialized
 let clientInitialized = false;

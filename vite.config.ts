@@ -18,6 +18,11 @@ function figmaAssetResolver() {
 
   export default defineConfig({
     plugins: [react(), tailwindcss(), figmaAssetResolver()],
+    test: {
+      globals: true,
+      environment: 'node',
+      include: ['src/**/*.test.ts', 'src/**/*.test.tsx'],
+    },
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
